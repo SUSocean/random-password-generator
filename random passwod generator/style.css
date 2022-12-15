@@ -1,0 +1,86 @@
+body {
+    background: #1C1C1C;
+    font-family: Inter;
+}
+
+#main-box {
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 446px;
+    height: 320px;
+}
+
+h1 {
+    line-height: 15px;
+    font-size: 40px;
+}
+
+#h1-white {
+    margin-top: 0;
+    font-weight: 800;
+    color: white;
+}
+
+#h1-green {
+    color: #4ADF86;
+    font-weight: 800;
+}
+
+p {
+    letter-spacing: .5px;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 51px;
+}
+
+#pasGenerator-btn {
+    background: #10B981;
+    border-radius: 4px;
+    border: none;
+    padding: 9px 17px;
+    color: white;
+    font-size: 16px;
+    width: 191px;
+    height: 42px;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+}
+
+
+#pasGenerator-btn:hover {
+    background: #0c8d62;
+}
+
+#pasGenerator-btn:active {
+    background: #0a7552;
+}
+
+
+#generatedPasArea {
+    border-top: 1px solid #2F3E53;
+    padding-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#passOne,
+#passTwo {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 4px;
+    color: #55F991;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
